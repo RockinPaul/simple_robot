@@ -7,9 +7,11 @@ function turnLeft (time: number) {
 }
 input.onButtonPressed(Button.A, function () {
     driveForward(2000)
-    turnRight(400)
-    driveForward(1000)
     turnLeft(400)
+    driveForward(2000)
+    turnRight(400)
+    driveForward(1500)
+    turnRight(400)
     driveForward(1500)
     turnLeft(400)
     driveForward(2000)
